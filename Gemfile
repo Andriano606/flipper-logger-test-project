@@ -28,6 +28,12 @@ gem "jbuilder"
 
 gem 'pg', '~> 1.2'
 
+gem 'ostruct'
+gem 'logger'
+
+# For Knapsack (free version)
+gem 'knapsack'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
@@ -63,3 +69,5 @@ group :development do
   # gem "spring"
 end
 
+
+gem "knapsack_pro", "~> 7.8", :groups => [:development, :test]
